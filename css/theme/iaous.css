@@ -1,0 +1,184 @@
+/*
+IAOUS theme.
+*/
+
+body { background-color: #eaeaea; }
+#site-info { display: none; }
+#site-copyright { display: none; }
+#access-footer { text-align: right; }
+
+#access ul ul {
+	display: none;
+}
+
+#access ul, #access-footer ul {
+	margin: 0px;
+}
+
+#access ul, #access li,
+#access-footer ul, #access-footer li {
+	list-style: none;
+}
+
+#breadcrumbs-navigation-container li,
+#access .menu-item, #access .page_item,
+#access-footer .menu-item, #access-footer .page_item {
+	display: inline-block;
+}
+
+#access .menu-item, #access .page_item {
+	padding: 0em 0em 0em 1.25em;
+	margin-bottom: .5em;
+}
+
+#access-footer .menu-item, #access-footer .page_item {
+	padding: .25em .25em .25em 1.5em;
+}
+
+#access {
+	margin-top: .5em;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+#access a {
+	text-decoration: none;
+	color: #959595;
+}
+
+#footer {
+	font-size: 12px;
+	font-family: sans-serif;
+	border-top: 2px solid black;
+	padding-left: 40px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #959595;
+}
+
+#breadcrumbs-navigation-container {
+	font-size: 14px;
+}
+
+#breadcrumbs-navigation-container li.spacer {
+	margin: 0em .175em;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 {
+	margin: .25em 0em;
+}
+
+#reply-title { margin-top: 2em; }
+
+#content-inner {
+	margin: 1em 1.5em .5em 1.5em;
+}
+
+.entry-utility {
+	font-size: 8pt;
+}
+.page-link {
+	font-size: 9pt;
+}
+.entry-meta {
+	font-size: 9pt;
+}
+.more-link {
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+.post-container {
+	margin-bottom: 1em;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+#site-title {
+	margin-top: 0em;
+}
+#site-description {
+	margin-bottom: 0em;
+}
+
+#sidebar {
+	margin: 1em;
+	padding: 1em;
+	padding-top: 0em;
+}
+
+
+#entry-author-info {
+	background-color: #fafafa;
+}
+
+
+#breadcrumbs-navigation-container a {
+	color: #1a1a1a;
+}
+
+#access .current-menu-item a, #access .current_page_item a {
+	color: #e0e775;
+}
+
+#breadcrumbs-navigation-container li.spacer {
+	color: #959595;
+}
+
+#content h1, #content h1 a,
+#content h2, #content h2 a,
+#content h3, #content h3 a,
+#sidebar h1, #sidebar h1 a,
+#sidebar h2, #sidebar h2 a,
+#sidebar h3, #sidebar h3 a {
+	color: #959595;
+}
+
+#sidebar {
+}
+
+#site-title a,
+#site-description {
+	color: #e0e775;
+}
+a { color: #9aa133; text-decoration: none; }
+a:visited { color: #b4bb96; }
+a:hover { color: #9e9f89; }
+a:active { color: #5e8598; }
+
+body { color: #595959; }
+
+.post.sticky {
+	background-color: #fafafa;
+	border: solid #e7e6e6;
+	border-width: 1px 0px;
+}
+
+#header-container-wrapper {
+	padding: 1em 0em;
+	background-color: #595959;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #959595;
+}
+
+#sidebar {
+	text-align: right;
+}
+
+/**
+Get rid of the list styling for our fancy right aligned menus
+*/
+#sidebar ul, #sidebar ul li,
+#sidebar ul ul, #sidebar ul ul li {
+	list-style: none;
+}
+

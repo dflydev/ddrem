@@ -1,0 +1,40 @@
+#comments { clear: both; }
+#comments-title { padding: 24px 0px; }
+h3#comments-title, h3#reply-title {
+    
+}
+.commentlist li.comment {
+    border-bottom: 1px solid #E7E7E7;
+    margin: 0px 0px 24px;
+    padding: 0px 0px 0px 56px;
+    position: relative;
+}
+.commentlist {
+    margin: 0px 0px 20px;
+}
+.commentlist, .commentlist li {
+    list-style: none;
+}
+.commentlist .avatar {
+    left: 0px;
+    position: absolute;
+    top: 4px;
+}
+.comment-author {
+    margin: 0px; padding: 0px;
+}
+.comment-author .says {
+    font-style: italic;
+}
+.comment-meta {
+    margin: 0px 0px 10px;
+    font-size: smaller;
+}
+.reply {
+    padding: 0px 0px 24px;
+}
+#respond .form-allowed-tags {
+    color: #888;
+    font-size: 12px;
+    line-height: 18px;
+}
