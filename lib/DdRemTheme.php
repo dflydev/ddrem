@@ -155,6 +155,7 @@ class DdRemTheme {
 #shell-container { width: <?php echo $global_width; ?>; }
 <?php if ( $content_width ): ?>
 #content img { max-width: <?php echo $content_width; ?>; }
+.page-template-no-sidebar-page-php #content img { max-width: none; }
 <?php endif; ?>
 <?php if ( $sidebar_width ): ?>
 #content-container { margin-right: -<?php echo $sidebar_width; ?>; }
